@@ -7,6 +7,37 @@ body {
     color: #e0e0e0;
 }
 
+.main-nav {
+    background-color: #4a148c;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    margin: 0 15px;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main-nav a:hover {
+    background-color: #7b1fa2;
+}
+
 header {
     background-color: #7e3af2;
     color: white;
@@ -77,11 +108,6 @@ h3 {
     box-shadow: 0 2px 8px rgba(0,0,0,0.6);
     border-radius: 10px;
     text-align: center;
-}
-
-.project:hover {
-    transform: translateY(-8px) scale(1.03);
-    box-shadow: 0 4px 12px rgba(126, 58, 242, 0.6);
 }
 
 .project img, .project video {
